@@ -1,12 +1,11 @@
 import './bootstrap';
 
 import { createApp } from 'vue';
+import router from './Router/routes';
+import store from './Store/index';
 
-createApp({
-  data() {
-    return {
-      count: 0
-    }
-  }
-}).mount('#app')
+const app = createApp();
+app.mount('#app');
+app.use(store);
+app.use(router);
 

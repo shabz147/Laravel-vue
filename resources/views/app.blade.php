@@ -10,12 +10,16 @@
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
+        @vite('resources/css/app.css')
         <style></style>
 
     </head>
     <body class="antialiased">
         <div id="app">
-
+            <router-view></router-view>
         </div>
+        <!-- scriptes -->
+        @vite('resources/js/app.js')
+        <script></script>
     </body>
 </html>
