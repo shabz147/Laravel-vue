@@ -1,12 +1,11 @@
 // import './bootstra p';
 
 import { createApp } from 'vue/dist/vue.esm-bundler';
-import router from './Router/routes';
-import store from './Store/index';
-import home from './Home.vue'
+import router from './Router/routes.js';
+import store from './Store/index.js';
 
-const app = createApp(home);
-app.mount('#app');
+const app = createApp();
 app.use(store);
 app.use(router);
+app.mount('#app');
 

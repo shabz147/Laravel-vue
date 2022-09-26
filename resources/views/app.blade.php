@@ -10,15 +10,15 @@
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css'])
         <style></style>
 
     </head>
     <body class="antialiased">
         <div id="app">
-            <home></home>
+        <router-view></router-view>
         </div>
         <!-- scriptes -->
-        <!-- @vite('resources/js/app.js') -->
+        @vite('resources/js/app.js')
     </body>
 </html>
