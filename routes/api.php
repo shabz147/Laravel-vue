@@ -23,5 +23,5 @@ Route::group([
 });
 
 Route::group(['middleware' => 'jwt.verify'], function () {
-    require_once(__DIR__ . '/api/users.php');
+    require_once(__DIR__ . '/api/user.php');
 });
