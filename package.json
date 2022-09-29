@@ -16,5 +16,11 @@
         "vue-router": "^4.1.5",
         "vuex": "^4.0.2"
     },
-    "dependencies": {}
+    "dependencies": {
+        "@popperjs/core": "^2.11.6",
+        "bootstrap": "^5.2.1",
+        "bootstrap-vue-3": "^0.3.7",
+        "sweetalert2": "^11.4.35",
+        "toastr": "^2.1.4"
+    }
 }
