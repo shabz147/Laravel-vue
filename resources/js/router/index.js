@@ -4,7 +4,7 @@ const routes = [
     {
         path:'/',
         name:'login',
-        component: ()=>import('../Pages/login.vue')
+        component: ()=>import('../Pages/auth/login.vue')
     },
 ]
 

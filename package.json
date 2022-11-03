@@ -21,6 +21,7 @@
         "bootstrap": "^5.2.1",
         "bootstrap-vue-3": "^0.3.7",
         "sweetalert2": "^11.4.35",
-        "toastr": "^2.1.4"
+        "toastr": "^2.1.4",
+        "vuex-persistedstate": "^4.1.0"
     }
 }

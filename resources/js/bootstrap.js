@@ -11,7 +11,7 @@ import Swal from 'sweetalert2';
 window.Swal = Swal;
 
 import toastr from 'toastr';
-windoe.toastr = toastr;
+window.toastr = toastr;
 
 //bootstarp
 import 'bootstrap/dist/css/bootstrap.css'
